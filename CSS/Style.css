@@ -7508,6 +7508,7 @@ a {
   }
 
   .heading.grostitre1 {
+    width: 7em;
     font-size: 2.6em;
     line-height: 36px;
   }

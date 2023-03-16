@@ -7501,6 +7501,7 @@ a {
 
   .viewmobilemenu {
     height: 320px;
+    width: 240px;
     padding-top: 11px;
     padding-right: 17px;
     padding-bottom: 35px;
@@ -7560,7 +7561,7 @@ a {
     position: relative;
     overflow: hidden;
     padding-top: 55px;
-    max-height: 740px;
+    max-height: 700px;
     min-height: 640px;
   }
 

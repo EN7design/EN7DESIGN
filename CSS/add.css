@@ -12,6 +12,37 @@
     bottom: 50px;
 }
 
+/* Newsletter */
+
+.NewsletterContenaire{
+    width: 30%;
+    margin-top: 106px;
+    margin-right: 0;
+    margin-left: auto;
+    display: block;
+
+}
+.NewsTitle{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.NewsParagraph{
+    margin-top: 15px;
+}
+
+#NewsButton{
+    background-color: #F07E19;
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    margin-top: 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
 
 /* Desktop S */
 @media screen and (max-width: 1280px){
@@ -22,7 +53,36 @@
     .copyright{
         bottom: 35px;
     }
+    /* Newsletter */
+    
+    .NewsletterContenaire{
+        width: 33%;
+        margin-top: 106px;
+        margin-right: 0;
+        margin-left: auto;
+        display: block;
+    }
+    .NewsTitle{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+    .NewsParagraph{
+        margin-top: 15px;
+    }
+    
+    #NewsButton{
+        background-color: #F07E19;
+        width: 200px;
+        height: 45px;
+        border-radius: 10px;
+        margin-top: 30px;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+    }
 }
+
 
 
 /* Tablette */
@@ -30,7 +90,13 @@
     .form{
         width: 20rem;
     }
+    /* Newsletter */
+    .NewsletterContenaire{
+        width: 40%;
+    }
 }
+
+
 
 
 /* Mobile */
@@ -43,7 +109,23 @@
     .copyright {
         bottom: 9px;
     }
+/* Newsletter */
+    .NewsletterContenaire{
+        width: 82%;
+        margin: auto;
+        padding-top: 45px;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+    
+    #NewsButton{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+    }
 }
+
 
 
 /* Mobile S */
@@ -51,4 +133,9 @@
     .form{
         width: 19rem;
     }
+    
+    .NewsletterContenaire{
+        width: 80%;
+    }
 }
+

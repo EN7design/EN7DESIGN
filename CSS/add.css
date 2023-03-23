@@ -51,6 +51,9 @@
     height: 35px;
   }
 
+  .partieBase{
+    position:relative;
+  }
 
 /* Desktop S */
 @media screen and (max-width: 1280px){

@@ -3092,22 +3092,22 @@ a {
 }
 
 .card-vs.junin {
-  height: 520px;
+  height: auto;
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
 }
 
 .card-vs.senin {
-  height: 580px;
+  height: auto;
 }
 
 .card-vs.chuunin {
-  height: 440px;
+  height: auto;
 }
 
 .card-vs.creation-contenu {
-  height: 580px;
+  height: auto;
 }
 
 .conetentcontenair-vs {
@@ -3161,11 +3161,8 @@ a {
 }
 
 .btncard-vs {
-  position: absolute;
-  left: 0%;
-  top: auto;
-  right: 0%;
-  bottom: 4%;
+ 
+  
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3174,6 +3171,7 @@ a {
   height: 40px;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 35px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -3243,7 +3241,7 @@ a {
 .card-vs-ui-ux {
   position: relative;
   width: 300px;
-  height: 690px;
+  height: auto;
   padding: 32px 20px;
   -webkit-align-self: flex-end;
   -ms-flex-item-align: end;
@@ -3253,21 +3251,21 @@ a {
 }
 
 .card-vs-ui-ux.refonte {
-  height: 600px;
+  height: auto;
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
 }
 
 .card-vs-ui-ux.interface {
-  height: 600px;
+  height: auto;
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
 }
 
 .card-vs-ui-ux.front {
-  height: 600px;
+  height: auto;
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
@@ -3372,25 +3370,25 @@ a {
 }
 
 .card-vs-print.milulu {
-  height: 650px;
+  height: auto;
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
 }
 
 .card-vs-print.flyeri {
-  height: 630px;
+  height: auto;
 }
 
 .card-vs-print.flyeri {
-  height: 570px;
+  height: auto;
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
 }
 
 .card-vs-print.buku {
-  height: 570px;
+  height: auto;
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
@@ -3432,11 +3430,11 @@ a {
 }
 
 .card-vs-motion.motion {
-  height: 630px;
+  height: auto;
 }
 
 .card-vs-motion.video {
-  height: 520px;
+  height: auto;
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
   align-self: flex-start;
@@ -5432,22 +5430,22 @@ a {
   }
 
   .card-vs.junin {
-    height: 520px;
+    height: auto;
     -webkit-align-self: flex-start;
     -ms-flex-item-align: start;
     align-self: flex-start;
   }
 
   .card-vs.senin {
-    height: 580px;
+    height: auto;
   }
 
   .card-vs.chuunin {
-    height: 440px;
+    height: auto;
   }
 
   .card-vs.creation-contenu {
-    height: 580px;
+    height: auto;
   }
 
   .conetentcontenair-vs {
@@ -5501,11 +5499,7 @@ a {
   }
 
   .btncard-vs {
-    position: absolute;
-    left: 0%;
-    top: auto;
-    right: 0%;
-    bottom: 4%;
+    
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -5514,6 +5508,7 @@ a {
     height: 40px;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 35px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -5583,7 +5578,7 @@ a {
   .card-vs-ui-ux {
     position: relative;
     width: 300px;
-    height: 690px;
+    height: auto;
     padding: 32px 20px;
     -webkit-align-self: flex-end;
     -ms-flex-item-align: end;
@@ -5593,21 +5588,21 @@ a {
   }
 
   .card-vs-ui-ux.refonte {
-    height: 600px;
+    height: auto;
     -webkit-align-self: flex-start;
     -ms-flex-item-align: start;
     align-self: flex-start;
   }
 
   .card-vs-ui-ux.interface {
-    height: 600px;
+    height: auto;
     -webkit-align-self: flex-start;
     -ms-flex-item-align: start;
     align-self: flex-start;
   }
 
   .card-vs-ui-ux.front {
-    height: 600px;
+    height: auto;
     -webkit-align-self: flex-start;
     -ms-flex-item-align: start;
     align-self: flex-start;
@@ -5712,25 +5707,25 @@ a {
   }
 
   .card-vs-print.milulu {
-    height: 650px;
+    height: auto;
     -webkit-align-self: flex-start;
     -ms-flex-item-align: start;
     align-self: flex-start;
   }
 
   .card-vs-print.flyeri {
-    height: 630px;
+    height: auto;
   }
 
   .card-vs-print.flyeri {
-    height: 570px;
+    height: auto;
     -webkit-align-self: flex-start;
     -ms-flex-item-align: start;
     align-self: flex-start;
   }
 
   .card-vs-print.buku {
-    height: 570px;
+    height: auto;
     -webkit-align-self: flex-start;
     -ms-flex-item-align: start;
     align-self: flex-start;
@@ -5762,7 +5757,7 @@ a {
   .card-vs-motion {
     position: relative;
     width: 300px;
-    height: 690px;
+    height: auto;
     padding: 32px 20px;
     -webkit-align-self: flex-end;
     -ms-flex-item-align: end;
@@ -5772,11 +5767,11 @@ a {
   }
 
   .card-vs-motion.motion {
-    height: 630px;
+    height: auto;
   }
 
   .card-vs-motion.video {
-    height: 520px;
+    height: auto;
     -webkit-align-self: flex-start;
     -ms-flex-item-align: start;
     align-self: flex-start;
@@ -7244,7 +7239,7 @@ a {
   }
 
   .card-vs-motion.motion {
-    height: 570px;
+    height: auto;
   }
 
   .contenairecard-project {

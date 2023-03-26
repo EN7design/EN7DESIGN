@@ -55,6 +55,25 @@
     position:relative;
   }
 
+.autresProjet{
+    display: flex;    
+    justify-content: center;
+    margin-bottom: 38px;
+    margin-top: -45px;
+}  
+#VoirPlus{
+    background-color: rgb(240, 126, 25);
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+#VoirPlus:hover {
+    background-color: #333;
+}
+
 /* Desktop S */
 @media screen and (max-width: 1280px){
     .form{
@@ -100,6 +119,22 @@
         width: 146px;
         height: 35px;
       }
+    
+    .autresProjet{
+        display: flex;    
+        justify-content: center;
+        margin-bottom: 38px;
+        margin-top: -45px;
+    }  
+    #VoirPlus{
+        background-color: rgb(240, 126, 25);
+        width: 200px;
+        height: 45px;
+        border-radius: 10px;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+    }
 }
 
 

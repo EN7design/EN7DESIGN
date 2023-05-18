@@ -63,7 +63,7 @@
 }  
 #VoirPlus{
     background-color: rgb(240, 126, 25);
-    width: 200px;
+    width: 300px;
     height: 45px;
     border-radius: 10px;
     color: white;
@@ -128,7 +128,7 @@
     }  
     #VoirPlus{
         background-color: rgb(240, 126, 25);
-        width: 200px;
+        width: 300px;
         height: 45px;
         border-radius: 10px;
         color: white;

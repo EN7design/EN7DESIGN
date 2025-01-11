@@ -1,0 +1,10 @@
+/* Supprimer l'outline pour les clics seulement */
+button, a, input {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-focus-ring-color: transparent;
+}
+button:focus, a:focus, input:focus {
+  outline: none;
+  -webkit-focus-ring-color: transparent;
+}

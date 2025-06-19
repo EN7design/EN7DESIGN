@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Notion Content</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap" rel="stylesheet">
   <style>
-    html, body {
+    html,
+    body {
       height: 100%;
       margin: 0;
       padding: 0;
       width: 100%;
       box-sizing: border-box;
     }
+
     body {
       min-height: 100vh;
       min-width: 100vw;
       display: flex;
       flex-direction: column;
     }
+
     .iframe-container {
       flex: 1 1 auto;
       display: flex;
@@ -26,48 +33,56 @@
       margin: 0;
       padding: 0;
     }
+
     iframe {
       width: 100vw;
       height: 100vh;
       border: none;
       display: block;
     }
+
     .btn-home {
       position: fixed;
       bottom: 50px;
-      right: 50px;
-      background: orange;
+      right: 0px;
+      background: #FB8902;
       color: white;
       border: none;
-      border-radius: 30px;
+      border-radius: 0px 0px 0px 30px;
+      ;
       padding: 14px 28px;
       font-size: 1.1rem;
-      font-family: inherit;
-      font-weight: 600;
+      font-family: "Heebo", sans-serif;
+      font-weight: 400;
       display: flex;
       align-items: center;
       text-decoration: none;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.12);
-      transition: background 0.2s;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+      transition: background, padding-left 0.2s;
+      transition-delay: 0.2s;
       z-index: 1000;
       cursor: pointer;
       gap: 4px;
     }
+
     .btn-home:hover {
-      background: #ff8800;
+      background: #c06900;
+      padding-left: 50px;
     }
+
     .btn-home svg {
       flex-shrink: 0;
     }
   </style>
 </head>
+
 <body>
   <div class="iframe-container">
     <iframe src="https://en7design.notion.site/ebd/216ca37fe3178098a02dfee960733546" allowfullscreen></iframe>
   </div>
   <a href="index.html" class="btn-home">
-    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" viewBox="0 0 24 24" style="vertical-align:middle;margin-right:8px;"><path d="M10.707 2.293a1 1 0 0 1 1.414 0l9 9a1 1 0 0 1-1.414 1.414L20 12.414V20a2 2 0 0 1-2 2h-4a1 1 0 0 1-1-1v-5h-2v5a1 1 0 0 1-1 1H6a2 2 0 0 1-2-2v-7.586l-.707.707A1 1 0 0 1 1.879 11.293l9-9z"/></svg>
     Retour à l'Accueil
   </a>
 </body>
-</html> 
+
+</html>

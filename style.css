@@ -54,6 +54,7 @@
 /* ---------------- */
 
 /* Les titres */
+
   /* Folio-TitleContainer */
     .Folio-TitleContainer{
       display: flex;
@@ -65,7 +66,7 @@
       flex-shrink: 0;
       margin: auto;
       padding-top: 50px;
-      padding-bottom: 50px;
+      padding-bottom: 34px;
 
       font-style: normal;
       line-height: 100%;
@@ -93,7 +94,6 @@
       gap: 24px;
       width: 90%;
       margin: auto;
-      margin-bottom: 32px;
 
       font-style: normal;
       line-height: 100%;
@@ -110,6 +110,38 @@
       width: 32rem;
     }
   /* -------------------- */
+  
+  /* Folio-GridTitleBox */
+   .Folio-GridTitleBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    width: 90%;
+    margin: auto;
+    padding: 30px 0px;
+    text-align: center;
+   }
+   .GridTitleBox-Grp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .GridTitleBox-Grp h1{
+       font-size: clamp(1rem, 2.6vw, 1.40rem);;
+       font-weight: 600;
+   }
+   .GridTitleBox-Grp p{
+       font-size: clamp(0.80rem, 1vw, 1rem);
+   }
+   .Separator{
+      width: 80px;
+      height: 4px;
+      border-radius: 20px;
+      background: #86888A;
+   }
+  /* ------------------ */
+
 /* ---------- */
 
 
@@ -158,6 +190,7 @@
       padding: 1em;
   }
 }
+
 @media screen and (max-width: 671px)  {
   .Folio-ClientContainer{
       padding: 0px;
@@ -170,6 +203,6 @@
   }
 
   .ClientBox-img{
-    width: 80%;
+    width: 98%;
   }
 }

@@ -2,104 +2,174 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Heebo", sans-serif;
 }
-.btn-home {
-  position: fixed;
-  bottom: 50px;
-  right: 0px;
-  background: #FB8902;
-  color: white;
-  border: none;
-  border-radius: 0px 0px 0px 30px;
-  ;
-  padding: 10px 22px;
-  font-size: 0.75rem;
-  font-family: "Heebo", sans-serif;
-  font-weight: 400;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
-  transition: background, padding-left 0.2s;
-  transition-delay: 0.2s;
-  z-index: 1000;
-  cursor: pointer;
-  gap: 4px;
-}
+/* Btn-Home */
+  .btn-home {
+    position: fixed;
+    bottom: 50px;
+    right: 0px;
+    background: #FB8902;
+    color: white;
+    border: none;
+    border-radius: 0px 0px 0px 30px;
+    ;
+    padding: 10px 22px;
+    font-size: 0.75rem;
+    font-family: "Heebo", sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    transition: background, padding-left 0.2s;
+    transition-delay: 0.2s;
+    z-index: 1000;
+    cursor: pointer;
+    gap: 4px;
+  }
 
-.btn-home:hover {
-  background: #c06900;
-  padding-left: 32px;
-}
+  .btn-home:hover {
+    background: #c06900;
+    padding-left: 32px;
+  }
 
-.btn-home svg {
-  flex-shrink: 0;
-}
+  .btn-home svg {
+    flex-shrink: 0;
+  }
+/* -------- */
 
-/* ............
-Seconde part 
-.............*/
-.Container{
-    columns: 300px;
-    padding: 1em;
+/* Seconde part */
+  .Container{
+      columns: 300px;
+      padding: 1em;
+      max-width: 90vw;
+      margin: auto;
+  }
+  .image{
+      width: 100%;
+      margin-bottom: 1em;
+      border-radius: 6px;
+  }
+/* ---------------- */
+
+/* Les titres */
+  /* Folio-TitleContainer */
+    .Folio-TitleContainer{
+      display: flex;
+      width: 100%;
+      max-width: 90vw;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.7rem;
+      flex-shrink: 0;
+      margin: auto;
+      padding-top: 50px;
+      padding-bottom: 50px;
+
+      font-style: normal;
+      line-height: 100%;
+      letter-spacing: 0.05rem;
+      color: #19161F;
+      text-align: center;
+    }
+    .Folio-TitleContainer h1{
+      font-size: clamp(1.2rem, 2.6vw, 2rem);
+      font-weight: 700;
+    }
+    .Folio-TitleContainer p{
+      font-size: clamp(0.6rem, 1.3vw, 1.02rem);
+      font-weight: 400;
+      letter-spacing: 100%;
+      line-height: 120%;
+    }
+  /* -------------------- */
+
+  /* Folio-ClientContainer */
+    .Folio-ClientContainer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+      width: 90%;
+      margin: auto;
+      margin-bottom: 32px;
+
+      font-style: normal;
+      line-height: 100%;
+      letter-spacing: 0.05rem;
+      color: #19161F;
+      text-align: center;
+    }
+    .Folio-ClientContainer h2{
+      font-size: clamp(1rem, 2.6vw, 1.40rem);
+      font-weight: 500;     
+    }
+
+    .ClientBox-img{
+      width: 32rem;
+    }
+  /* -------------------- */
+/* ---------- */
+
+
+/* Effet au click */
+  #lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  #lightbox img {
     max-width: 90vw;
-    margin: auto;
-}
-.image{
-    width: 100%;
-    margin-bottom: 1em;
-    border-radius: 6px;
-}
+    max-height: 80vh;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #000;
+  }
+  #closeBtn {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    color: #fff;
+    font-size: 3rem;
+    cursor: pointer;
+    z-index: 1001;
+  }
+  .Container .image {
+    transition: transform 0.25s cubic-bezier(0.4,0.2,0.2,1), box-shadow 0.25s cubic-bezier(0.4,0.2,0.2,1);
+  }
+  .Container .image:hover {
+    transform: scale(1.04);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.435);
+    z-index: 2;
+  }
+/* ---------- */
+
 
 @media screen and (max-width: 1072px)  {
-    .Container{
-        columns: 180px;
-        padding: 1em;
-    }
+  .Container{
+      columns: 180px;
+      padding: 1em;
+  }
 }
 @media screen and (max-width: 671px)  {
-    .Container{
-        columns: 120px;
-        padding: 1em;
-        max-width: 99vw;
-    }
-}
-/* .............
-Effet au click 
-................
-*/
-#lightbox {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: rgba(0,0,0,0.8);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1000;
-}
-#lightbox img {
-  max-width: 90vw;
-  max-height: 80vh;
-  border-radius: 10px;
-  box-shadow: 0 0 20px #000;
-}
-#closeBtn {
-  position: absolute;
-  top: 30px;
-  right: 40px;
-  color: #fff;
-  font-size: 3rem;
-  cursor: pointer;
-  z-index: 1001;
-}
-.Container .image {
-  transition: transform 0.25s cubic-bezier(0.4,0.2,0.2,1), box-shadow 0.25s cubic-bezier(0.4,0.2,0.2,1);
-}
-.Container .image:hover {
-  transform: scale(1.04);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.435);
-  z-index: 2;
+  .Folio-ClientContainer{
+      padding: 0px;
+      gap: 14px;
+  }
+  .Container{
+      columns: 120px;
+      padding: 1em;
+      max-width: 99vw;
+  }
+
+  .ClientBox-img{
+    width: 80%;
+  }
 }

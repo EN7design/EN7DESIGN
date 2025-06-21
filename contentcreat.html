@@ -29,7 +29,20 @@
 </head>
 
 <body>
-<!-- All images -->
+<!-- Folio-TitleContainer -->
+  <div class="Folio-TitleContainer">
+    <h1>Folio création des contenus</h1>
+    <p>Découvrez quelques-unes de nos réalisations.<br>Nous avons hâte de collaborer avec vous ! 🤗</p>
+  </div>
+<!-- --------------------------- -->
+
+<!-- Folio-ClientContainer -->
+  <div class="Folio-ClientContainer">
+    <h2>Ils nous font confiance</h2>
+    <img class="ClientBox-img" src="./folio/LogoClients/LogoClients.png">
+  </div>
+<!-- --------------------- -->
+<!-- CA Boissons -->
   <div class="Container">
     <img src="folio/CABoissons/Post-1.png" alt="Visual create by EN7DESIGN" class="image" loading="lazy">
     <img src="folio/CABoissons/Post-10 1.png" alt="Visual create by EN7DESIGN" class="image" loading="lazy">
@@ -58,29 +71,19 @@
     <img src="folio/CABoissons/Post-8.jpg" alt="Visual create by EN7DESIGN" class="image" loading="lazy">
     <img src="folio/CABoissons/Post-9.png" alt="Visual create by EN7DESIGN" class="image" loading="lazy">
   </div>
-<!-- All images -->
-<!-- 
-...............
-Effet au click
-...............
--->
+<!-- CA Boissons -->
+
+<!-- Effet au click -->
   <div id="lightbox" style="display:none;">
     <span id="closeBtn">&times;</span>
     <img id="lightbox-img" src="" alt="Image en grand">
   </div>
-<!-- 
-................
-Btn back to home
-................
--->
+<!-------------------->
+<!-- Btn back to home -->
   <a href="index.html" class="btn-home">
     Retour à l'Accueil
   </a>
-<!-- 
-...............
-Le script
-...............
--->
+<!----------------------->
   <script>
     const images = document.querySelectorAll('.image');
     const lightbox = document.getElementById('lightbox');
